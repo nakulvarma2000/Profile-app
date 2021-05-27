@@ -1,0 +1,249 @@
+body {
+  height: 100%;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg {
+  height: 100%;
+}
+.name {
+  font-size: 22px !important;
+}
+.aboutme-card-page {
+  background-color: rgb(255, 226, 189);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+  background-color: rgb(255, 243, 230) !important;
+  margin-bottom: 10%;
+  width: 40rem;
+}
+.align-centre {
+  font-size: 16px;
+  text-align: center;
+  font-family: "poppins";
+}
+.textofcard {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.job {
+  font-size: 20px !important;
+  font-family: sans-serif;
+  font-weight: bold !important;
+}
+.bg1 {
+  background-color: rgb(255, 226, 189);
+  width: 100%;
+  height: 100%;
+}
+.Resume-page {
+  padding: 1%;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: grid;
+  height: 100%;
+}
+.dowload-button {
+  float: right;
+  padding-right: 5%;
+}
+.resume-card {
+  padding: 5rem;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.resume-box {
+  margin-top: 2rem;
+  display: grid;
+  width: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.resume-card-title {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+}
+.resume-card-content {
+  width: 200%;
+  display: flex;
+  text-align: left;
+  padding-right: 3rem;
+}
+.page-title {
+  font-family: "Poppins";
+}
+.footer {
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+}
+.form {
+  background-color: rgb(255, 226, 189);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.contact-title {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+}
+.contact-body {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  margin: 5%;
+  margin-bottom: 2%;
+}
+@media only screen and (max-width: 3840px) {
+  .textofcard {
+    margin-right: 1rem;
+  }
+  .align-centre {
+    font-size: 40px !important;
+  }
+  .aboutme-card {
+    width: 100rem !important;
+  }
+  .name {
+    font-size: 50px !important;
+  }
+  .job {
+    font-size: 48px !important;
+  }
+}
+@media only screen and (max-width: 1919px) {
+  .textofcard {
+    margin-right: 1rem;
+  }
+  .align-centre {
+    font-size: 22px !important;
+  }
+  .aboutme-card {
+    width: 50rem !important;
+  }
+  .name {
+    font-size: 27px !important;
+  }
+  .job {
+    font-size: 25px !important;
+  }
+}
+@media only screen and (max-width: 1439px) {
+  .textofcard {
+    margin-right: 1rem;
+  }
+  .align-centre {
+    font-size: 18px !important;
+  }
+  .aboutme-card {
+    width: 40rem !important;
+  }
+  .name {
+    font-size: 22px !important;
+  }
+  .job {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .textofcard {
+    margin-right: 1rem;
+  }
+  .align-centre {
+    font-size: 16px !important;
+  }
+  .aboutme-card {
+    width: 38rem !important;
+  }
+  .name {
+    font-size: 21px !important;
+  }
+  .job {
+    font-size: 19px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .textofcard {
+    margin-right: 1rem;
+  }
+  .align-centre {
+    font-size: 16px !important;
+  }
+  .aboutme-card {
+    width: 35rem !important;
+  }
+  .name {
+    font-size: 20px !important;
+  }
+  .job {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .textofcard {
+    margin-right: 1rem;
+  }
+  .align-centre {
+    font-size: 14px !important;
+  }
+  .aboutme-card {
+    width: 30rem !important;
+  }
+  .name {
+    font-size: 18px !important;
+  }
+  .job {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .textofcard {
+    margin-right: 1rem;
+  }
+  .align-centre {
+    font-size: 14px !important;
+  }
+  .aboutme-card {
+    width: 19rem !important;
+  }
+  .job {
+    font-size: 14px !important;
+  }
+  .name {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .textofcard {
+    margin-right: 1rem;
+  }
+  .align-centre {
+    font-size: 10px !important;
+  }
+  .aboutme-card {
+    width: 17rem !important;
+  }
+  .name {
+    font-size: 14px !important;
+  }
+  .job {
+    font-size: 12px !important;
+  }
+}
