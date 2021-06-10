@@ -12,6 +12,7 @@ a {
 .name {
   font-size: 22px !important;
 }
+
 .aboutme-card-page {
   background-color: rgb(255, 226, 189);
   display: flex;
@@ -21,8 +22,9 @@ a {
 .aboutme-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
   background-color: rgb(255, 243, 230) !important;
-  margin-bottom: 10%;
+  margin-bottom: 2rem;
   width: 40rem;
+  margin-top: 2rem;
 }
 .align-centre {
   font-size: 16px;
@@ -61,8 +63,6 @@ a {
 }
 .resume-box {
   margin-top: 2rem;
-  display: grid;
-  width: 0 auto;
   padding: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -88,12 +88,14 @@ a {
   bottom: 0%;
   width: 100%;
 }
+.footer-links {
+  font-size: 12px;
+  text-align: center;
+}
 .form {
   background-color: rgb(255, 226, 189);
   width: 100%;
   display: flex;
-  justify-content: center;
-  height: 100%;
 }
 .contact-title {
   width: 100%;
@@ -102,58 +104,76 @@ a {
   justify-content: center;
   align-items: center;
   font-family: "Poppins";
+  margin-bottom: 3rem;
 }
 .contact-body {
   width: 100%;
   justify-content: center;
   align-items: center;
   font-family: "Poppins";
-  margin: 5%;
+  padding: 2rem;
   margin-bottom: 2%;
 }
 @media only screen and (max-width: 3840px) {
   .textofcard {
-    margin-right: 1rem;
+    margin: 5rem;
+    text-align: justify !important;
   }
   .align-centre {
-    font-size: 40px !important;
-  }
-  .aboutme-card {
-    width: 100rem !important;
-  }
-  .name {
     font-size: 50px !important;
   }
-  .job {
-    font-size: 48px !important;
-  }
-}
-@media only screen and (max-width: 1919px) {
-  .textofcard {
-    margin-right: 1rem;
-  }
-  .align-centre {
-    font-size: 22px !important;
+  .footer-links {
+    font-size: 50px;
   }
   .aboutme-card {
-    width: 50rem !important;
+    width: 130rem !important;
+    height: 80rem !important;
   }
   .name {
-    font-size: 27px !important;
+    font-size: 60px !important;
+  }
+  .job {
+    font-size: 52px !important;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  .textofcard {
+    margin: 3rem;
+    text-align: justify !important;
+  }
+  .align-centre {
+    font-size: 26px !important;
+  }
+  .aboutme-card {
+    width: 58rem !important;
+    height: 40rem !important;
+    margin-bottom: 11rem;
+  }
+  .footer-links {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 35px !important;
   }
   .job {
     font-size: 25px !important;
   }
 }
-@media only screen and (max-width: 1439px) {
+@media only screen and (max-width: 1440px) {
   .textofcard {
-    margin-right: 1rem;
+    margin: 3rem;
+    text-align: justify !important;
   }
   .align-centre {
-    font-size: 18px !important;
+    font-size: 22px !important;
+  }
+  .footer-links {
+    font-size: 16px;
   }
   .aboutme-card {
-    width: 40rem !important;
+    width: 54rem !important;
+    height: 35rem !important;
+    margin-bottom: 7.5rem;
   }
   .name {
     font-size: 22px !important;
@@ -162,15 +182,21 @@ a {
     font-size: 20px !important;
   }
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1366px) {
   .textofcard {
-    margin-right: 1rem;
+    margin: 1rem;
+    text-align: justify !important;
   }
   .align-centre {
     font-size: 16px !important;
   }
   .aboutme-card {
     width: 38rem !important;
+    height: 25rem !important;
+    margin-bottom: 2.5rem;
+  }
+  .footer-links {
+    font-size: 12px;
   }
   .name {
     font-size: 21px !important;
@@ -181,13 +207,15 @@ a {
 }
 @media only screen and (max-width: 991px) {
   .textofcard {
-    margin-right: 1rem;
+    margin: 1rem;
+    text-align: justify !important;
   }
   .align-centre {
-    font-size: 16px !important;
+    font-size: 20px !important;
   }
   .aboutme-card {
     width: 35rem !important;
+    height: 32rem !important;
   }
   .name {
     font-size: 20px !important;
@@ -195,16 +223,21 @@ a {
   .job {
     font-size: 18px !important;
   }
+  .footer {
+    bottom: 0px !important;
+  }
 }
 @media only screen and (max-width: 767px) {
   .textofcard {
-    margin-right: 1rem;
+    margin: 1rem;
+    text-align: justify !important;
   }
   .align-centre {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   .aboutme-card {
     width: 30rem !important;
+    height: 30rem !important;
   }
   .name {
     font-size: 18px !important;
@@ -212,16 +245,45 @@ a {
   .job {
     font-size: 16px !important;
   }
+  .footer {
+    bottom: 0px !important;
+  }
+  .Resume-page {
+    padding: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .resume-box {
+    padding: 0.5rem;
+  }
+  .resume-card-content {
+    width: 100%;
+    text-align: justify;
+    padding-right: 0rem;
+    font-size: 14px;
+  }
+  .resume-card {
+    padding: 2rem;
+    display: block;
+  }
+  .page-title {
+    margin-bottom: 1rem !important;
+  }
+  .form {
+    flex-direction: column-reverse !important;
+  }
 }
 @media only screen and (max-width: 600px) {
   .textofcard {
-    margin-right: 1rem;
+    margin: 1rem;
+    text-align: justify !important;
   }
   .align-centre {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   .aboutme-card {
     width: 19rem !important;
+    height: 30rem !important;
   }
   .job {
     font-size: 14px !important;
@@ -229,21 +291,29 @@ a {
   .name {
     font-size: 16px !important;
   }
+  .footer {
+    bottom: 0px !important;
+  }
 }
 @media only screen and (max-width: 400px) {
   .textofcard {
-    margin-right: 1rem;
+    margin: 1rem;
+    text-align: justify !important;
   }
   .align-centre {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
   .aboutme-card {
     width: 17rem !important;
+    height: 27rem !important;
   }
   .name {
     font-size: 14px !important;
   }
   .job {
     font-size: 12px !important;
+  }
+  .footer {
+    bottom: 0px !important;
   }
 }

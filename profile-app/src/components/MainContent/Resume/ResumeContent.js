@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 export default class ResumeContent extends Component {
     render() {
         return (
-            <div>
+            <div style={{marginBottom: "2rem"}}>
                 <Card className="resume-box" >
                     <Card.Body className="resume-card">
                     <Card.Title className="resume-card-title">Summary</Card.Title>
