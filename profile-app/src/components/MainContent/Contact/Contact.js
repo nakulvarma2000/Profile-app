@@ -31,7 +31,7 @@ handleSubmit(e) {
         templateParams,
         userId
        )
-     this.resetForm()
+     this.resetForm(alert("Your message has been sent successfully"))
  }
 resetForm() {
     this.setState({
