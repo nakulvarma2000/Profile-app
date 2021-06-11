@@ -23,7 +23,6 @@ handleSubmit(e) {
       subject: subject,
       message: message,
      }
-     console.log(process.env.REACT_APP_SERVICE_ID);
 
      emailjs.send(
         serviceId,
@@ -54,7 +53,7 @@ render() {
                 </div>
             </div>
           <Form className="contact-body" onSubmit={this.handleSubmit.bind(this)}>
-            <FormGroup controlId="formBasicEmail">
+            <FormGroup >
               <Label>Email address</Label>
               <Input
                 type="email"
@@ -65,7 +64,7 @@ render() {
                 required
               />
             </FormGroup>
-            <FormGroup controlId="formBasicName">
+            <FormGroup >
               <Label>Name</Label>
               <Input
                 type="text"
@@ -76,7 +75,7 @@ render() {
                 required
               />
             </FormGroup>
-            <FormGroup controlId="formBasicSubject">
+            <FormGroup >
               <Label>Subject</Label>
               <Input
                 type="text"
@@ -87,7 +86,7 @@ render() {
                 required
               />
             </FormGroup>
-            <FormGroup controlId="formBasicMessage">
+            <FormGroup >
               <Label>Message</Label>
               <Input
                 type="textarea"

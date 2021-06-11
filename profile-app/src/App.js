@@ -10,9 +10,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Head />
-        <body>
-        <MainContent /></body>
+        <MainContent />
         <footer className="footer">
         <Footer />
         </footer>
